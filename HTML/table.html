@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <style>
+        *{
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        }
+
+        table, tr, th, td {
+            border: 1px solid #000;
+            border-collapse: collapse;
+        
+        }
+
+        tr, td, th{
+            border: 1px dashed #000;
+        }
+
+        table{
+            width: 100%;
+            text-align: center;
+            
+        }
+
+        th {
+            padding: 10px; 
+  
+        }       
+        td {
+        padding: 5px 7px;
+        
+        }
+
+        tr:hover td {
+         background: #e8edff;
+        }
+       
+    </style>
+
+    <table>
+
+        <caption><h1>Расчет</h1></caption> 
+
+        <colgroup>
+            <col span="1" style="background:Khaki">
+            <col style="background-color:LightCyan">
+            <col style="background-color:rgb(255, 224, 224)">
+            <col style="background-color:#B5FFA0">
+            <col style="background-color:#FFD7AF">
+            <col style="background-color:#FFBEFD">
+            
+        </colgroup>
+        
+        <thead>
+
+            <tr>
+              <th>№ п/п</th>
+              <th>Наименование товара</th>
+               <th>Ед. изм.</th>
+               <th>Количество</th>
+               <th>Цена за ед. изм., руб.</th>
+               <th>Стоимость, руб.</th>
+            </tr>
+
+           </thead>
+
+          
+          <tbody>
+
+            <tr>
+                <td>1.</td>
+                <td>Томаты свежие</td><td>кг</td><td>15,20</td><td>69,00</td><td>1048,80</td>
+            </tr>
+
+            <tr>
+                <td>2.</td>
+                <td>Огурцы свежие</td><td>кг</td><td>2,50</td><td>48,00</td><td>120,00</td>
+            </tr>
+
+            <tr>
+                <td>3.</td>
+                <td>Капуста свежая</td><td>кг</td><td>16</td><td>45,00</td><td>720</td>
+            </tr>
+
+            <tr>
+                <td>4.</td>
+                <td>Чеснок</td><td>кг</td><td>3</td><td>70</td><td>250</td>
+            </tr>
+            
+            <tr>
+                <td>5.</td>
+                <td>Баклажан</td><td>кг</td><td>5</td><td>50,00</td><td>150</td>
+            </tr>
+
+            <tr>
+                <td>6.</td>
+                <td>Кабачек</td><td>кг</td><td>8</td><td>80,00</td><td>300</td>
+            </tr>
+
+          </tbody>  
+    
+
+          <tfoot>
+
+            <tr style="background-color: #B8D8E1;">
+              <td colspan="5" style="text-align:right" laststr="last">ИТОГО:</td><td>2588,80</td>
+            </tr>
+
+          </tfoot>
+
+    </table>
+    
+</body>
+</html>
