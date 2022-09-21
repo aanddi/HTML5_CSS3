@@ -1,10 +1,10 @@
 <h1>Курс по изучинию Web development</h1>
 <ul>
 	<li>
-	![HTML](https://img.shields.io/badge/HTML5- F07427?style=for-the-			badge&logo=html5&logoColor=white)
+	![HTML](https://img.shields.io/badge/HTML5- F07427?style=for-the-badge&logo=html5&logoColor=white)
 	</li>
 	<li>
-	![CSS](https://img.shields.io/badge/CSS3- 52A7FC?style=for-the-	badge&logo=css3&logoColor=white)
+	![CSS](https://img.shields.io/badge/CSS3- 52A7FC?style=for-the-badge&logo=css3&logoColor=white)
 	</li>
 </ul>
 
