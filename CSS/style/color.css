@@ -1,0 +1,25 @@
+body {
+    background: #32A66E; /*background: rgba(10, 200, 200, 0.56);*/
+}
+
+#first {
+    color: #651F20; /*color: rgb(102, 31, 31);*/
+    background-color: #7F165D; /*background-color: rgba(192, 11, 138, 0.603);*/
+}
+
+#second {
+    color: #2D0B21; /*color: rgb(45, 10, 34);*/
+    background-color: #187920; /*background-color: rgba(8, 182, 8, 0.603);*/
+}
+
+#three {
+    color: #FD0013; /*background-color:rgb(255, 0, 0);*/
+    background-color: #A19839; /*background-color:rgba(192, 182, 47, 0.808);*/
+    
+}
+
+#four {
+    color: #0026F9; /*color: rgb(0, 0, 255);*/
+    background-color:#000000; /*background-color: rgba(0, 0, 0, 1);*/
+}
+
