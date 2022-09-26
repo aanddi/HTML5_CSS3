@@ -1,0 +1,65 @@
+/* css box model 
+margin
+padding
+border
+*/
+.one{
+    text-align: center;
+    background: #9457EB;
+    border: 2px solid #000;
+    border-radius: 500px;
+    width: 400px;
+    height: 200px;
+    padding-top: 100px;
+    margin-left: 300px;
+}
+.two{
+    text-align: center;
+    background: #20B2AA;
+    margin: 20px 20px 50px 50px;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-top: -100px;
+}
+/* outline */
+.three{
+    margin: 3rem;
+}
+a{
+    background: #34C821;
+    text-decoration: none;
+    padding: 1.2rem 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+#four{
+    border: 0.2rem solid #000;
+}
+#five{
+    border: 0.2rem solid #C84B92;
+    outline: 0.2rem solid #000;
+    outline-offset: -10px;
+}
+.four{
+    background: #F4CA16;
+    width: 150px;
+    height: 100px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.five{
+
+    width: 1000px;
+    height: 50px;
+    margin: 15px;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-top: 50px solid #C84B92;
+    box-sizing: border-box;
+}
+.wrapper_for_five{
+    background: blue;
+}
