@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background: #271C1F;
+    color: #FF1100;
+    display: block;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+a:hover {
+    background: #FF1100;
+    color: #271C1F;
+}
