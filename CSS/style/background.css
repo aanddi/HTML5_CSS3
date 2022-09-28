@@ -10,13 +10,14 @@ div{
 .small-img {
     border: 2px solid black;
     background: url(../images/img3.jpg);
-/* background-repeat: repeat; */
-background-repeat: no-repeat;
-/* background-repeat: repeat-x; */
-/* background-repeat: repeat-y; */
-/* background-repeat: space; */
-/* background-repeat: round; */
-background-position: 100% 100%;
+    /* background-repeat: repeat; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: space; */
+    /* background-repeat: round; */
+    background-position: 100% 100%;
+    background-attachment: fixed;
 }
 .big2-img {
     background: url(../images/img4.jpg);
