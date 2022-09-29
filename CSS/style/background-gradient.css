@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: #8837DD;
+}
+
+.header {
+    background-image: url(../images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.section {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),
+     url(../images/img2.jpg) center/cover no-repeat fixed;
+}
+
+.gradient__generator{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 17%, rgba(22,9,121,1) 50%, rgba(255,0,0,1) 78%);
+}
