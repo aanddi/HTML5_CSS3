@@ -1,0 +1,22 @@
+div{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+.one{
+    background: linear-gradient(#fff, #2111D7, #D70004);
+}
+.two{
+    background: linear-gradient(#000, #0D00BE, #BE0B11);
+}
+
+.three{
+    background: linear-gradient(45deg, #318CE7, #1D548B, #BE0B11);
+}
+.four {
+    background: linear-gradient(to top right, #2C58F9, #D70026);
+}
+.five {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8));
+}
+
