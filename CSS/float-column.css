@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    color: white;
+}
+.one{
+    float: left;
+    background: #8837DD;
+    height: 150px;
+    width: 33.33%;
+}
+.two {
+    float: left;
+    background: #318CE7;
+    height: 150px;
+    width: 33.33%;
+}
+.three {
+    float: left;
+    background: #50C878;
+    height: 150px;
+    width: 33.33%;
+}
