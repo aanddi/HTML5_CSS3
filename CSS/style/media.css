@@ -1,0 +1,42 @@
+body{
+    background: #C41485;
+}
+.banner{
+    background:#004242;
+}
+h1{
+    color: #7DF52C;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+
+@media screen and (min-width:590px){
+body{
+    background: #F4CA16;
+}
+.banner{
+background: #EB4C42;
+}
+h1{
+    color: black;
+    font-size: 40px;
+}
+}
+
+
+@media screen and (min-width:780px) {
+    body {
+        background: #9457EB;
+    }
+
+    .banner {
+        background: #20B2AA;
+    }
+
+    h1 {
+        color: black;
+        font-size: 60px;
+    }
+}
