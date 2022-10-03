@@ -1,0 +1,844 @@
+/*
+
+____________ FONTS _______________
+Macherie, Montserrat, Open Sans
+
+*/
+
+@font-face {
+    font-family: "Macherie";
+    src: url(../fonts/macherie.ttf);
+    font-style: normal;}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+
+/*____________ MAIN _______________*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 215px;
+}
+
+.section__text h1{
+    text-align: center;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Macherie";
+    color: #F6A73E;
+}
+
+span {
+    color: #F6A73E;
+    font-size: 20px;
+}
+
+
+/*____________ HEADER _______________*/
+
+.header { 
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0,0,0.6)),
+     url(../img/header_body.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh; 
+
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+    padding-right: 130px;
+}
+
+.header__line {
+    font-family: "Macherie";
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 38px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 30px;
+    transition: all 0.4s ease-out;
+}
+
+.nav a:hover{
+    color: #F7A92C;
+}
+
+.phone a {
+    color: #F7A92C;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 60px;
+    transition: all 0.4s ease-out;
+    
+}
+
+.phone a:hover {
+    color: #8B331B;
+}
+
+/*main screen*/
+
+.header__body {
+    margin-top: 200px;
+    margin-left: 110px;
+    color: #fff;
+    font-family: "Macherie";
+}
+
+.slogan {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.time {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    
+}
+
+.btn {
+    margin-top: 40px;
+}
+
+.btn a{
+    font-family: "Macherie";
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #F7A92C;
+    background-color: #F7A92C;
+    color: #fff;
+    border-radius: 30px;
+    width: 238px;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.4s ease-out;
+}
+
+ .btn :hover {
+    background-color: #8B331B;
+    color: #fff;
+    border: 1px solid #8B331B;
+}
+
+
+/*____________ ABOUT _______________*/
+
+.about {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),
+     url(../img/about.jpg) ;
+    min-height: 100vh; 
+    background-color: #F9F8F8;
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.about__text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.servise {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.sirvise__icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sirvise__icon img {
+    min-width: 70px;
+    height: 70px;
+    background-color: #F6A73E;
+    padding: 17px;
+    border: 2px solid #F6A73E;
+    border-radius: 50%;
+    
+}
+
+.sirvise__icon__text {
+    margin-top: 30px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+
+/*____________ GALLERY_______________*/
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    min-height: 100vh;
+    background-image: url(../img/bg_gallery.jpg);
+    background-attachment: fixed;
+}
+
+  /*gallery img*/
+.gallery__img img{
+    width: 450px;
+    height: auto;
+    padding-right: 30px;
+    padding-top: 10px;
+
+    transition: 0.2s;
+  }
+  
+
+.gallery__img img:hover {
+    transform: scale(1.1);
+}
+
+/*____________ CONTACT _______________*/
+
+.contact {
+    min-height: 100vh;
+    background-color: #fff;
+    padding-top: 60px;
+}
+
+
+.contact__info{
+    margin-top: 43px;
+
+}
+
+.phone__contact a {
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    font-family: "Macherie";
+    text-decoration: none;
+    color: #F6A73E;
+
+    transition: all 0.4s ease-out;
+}
+
+.phone__contact a:hover {
+    color: #8B331B;
+}
+
+
+.address p{
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: 700;
+}
+
+.contact__info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+.social p{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: 700;
+
+}
+
+.social__icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social__icon img{
+    padding: 11px 35px;
+    border: 1px solid #E3ECF5;
+    border-radius: 13px;
+    text-decoration: none;
+
+    transition: all 0.4s ease-out;
+    
+}
+
+.social__icon img:hover {
+    background-color: #F0EAD6;
+    border: 1px solid #E3ECF5;
+    border-radius: 13px;
+}
+
+/*____________ FORMS _______________*/
+
+.forms {
+    min-height: 22vh;
+    background-color: #E6E3DE;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    padding-top: 52px;  
+}
+
+.info h1 {
+    color: #000;
+    font-size: 23px;
+    
+}
+
+input{
+    width: 311px;
+    height: 22px;
+    padding: 12px 22px;
+    border-radius: 40px;
+    margin-left: 231px;
+    border: 1px solid #000;
+    font-size: 20px;
+}
+
+.btn__forms a{
+    width: 110px;
+    height: 36px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 40px;
+    background-color: #F5A54A;
+    margin-left: 21px;
+    padding: 15px 18px;
+    color: #fff;
+    font-family: "Macherie";
+    text-transform: uppercase;
+    transition: all 0.4s ease-out;   
+}
+
+.btn__forms a:hover{
+    background-color: #8B331B;
+    color: #fff;
+    border-color:#8B331B;
+}
+
+
+/*____________ FOOTER _______________*/
+
+.footer {
+    padding-top: 75px;
+    color: #fff;
+    background-color: #000;
+    min-height: 180px;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__info img {
+    width: 100px;
+    height: auto;
+}
+
+.nav__footer a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-family: "Macherie";
+    
+    transition: all 0.4s ease-out;
+}
+
+.nav__footer a:hover{
+    color: #F7A92C;
+}
+
+.footer__text {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__text img {
+    color: #E3ECF5;
+    width: 50px;
+    height: auto;
+    background: #fff;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+
+    transition: all 0.4s ease-out;
+}
+
+.footer__text img:hover {
+    background-color: #F7A92C;
+    border-radius: 100%;
+    border: 1px solid #F7A92C;
+   
+} 
+
+
+
+
+/*____________ MEDIA _______________*/
+
+@media screen and (max-width: 1700px){
+/*____________ GALLERY_______________*/
+    .gallery {
+        padding-bottom: 70px;
+    }
+
+    .gallery__img {
+        padding-left: 150px;
+        
+ 
+    }
+
+    .gallery__img img{
+        width: 400px;
+    }
+/*____________ FORMS _______________*/
+    input{
+        width: 250px;
+        height: 22px;
+        padding: 12px 22px;
+        margin-left: 200px;
+        font-size: 20px;
+    }
+
+    .btn__forms a{
+        width: 90px;
+        height: 36px;
+        font-size: 18px;
+        margin-left: 21px;
+        padding: 15px 18px;
+
+    }
+
+}
+
+@media screen and (max-width: 1516px){
+
+
+/*____________ MAIN _______________*/
+    .container {
+        margin: 0 80px;
+    }
+/*____________ HEADER _______________*/
+    .phone a  {
+        font-size: 25px;
+        padding-left: 30px;
+    }
+
+    .nav a {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .logo img{
+        padding-right: 70px;
+    }
+/*____________ GALLERY_______________*/
+
+    .gallery {
+        padding-bottom: 70px;
+    }
+    .galler__img {
+        display: flex;
+        justify-content: center;
+        width: 600px;
+        padding-top: 20px;
+
+    }
+    
+/*____________ FORMS_______________*/
+
+    .info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 52px;
+    }
+    input{
+        margin-left: 0px;
+
+    }
+    
+    .btn__forms a{
+
+        margin-left: 0px;
+  
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+
+/*____________ GALLERY_______________*/
+    
+    .gallery {
+        padding-bottom: 70px;
+    }
+
+    .gallery__img{
+        padding-left: 0;
+    }
+
+    .gallery__img img{
+        display: flex;
+        justify-content: center;
+        width: 520px;
+        padding-top: 20px;
+    }
+/*____________ CONTACT _______________*/
+
+    .contact__info a{
+        font-size: 30px;
+
+    }
+
+    .address p {
+        font-size: 23px;
+
+    }
+
+    .social p{
+        font-size: 15px;
+ 
+    }
+}
+
+@media screen and (max-width: 1066px){
+
+/*____________ MAIN _______________*/
+    .container {
+        margin: 0 30px;
+    }
+
+/*____________ NAV _______________*/
+    .logo img {
+        width: 90px;
+        padding-right: 40px;
+    }
+
+    .phone a {
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .nav a {
+        margin-right: 10px;
+
+    }
+/*____________ HEADER _______________*/
+    .slogan {
+        font-size: 30px;
+    }
+
+    .time {
+        font-size: 50px;
+    }
+
+    .header__body {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .btn {
+        margin-top: 110px;
+    }
+
+/*____________ GALLERY_______________*/
+
+    .gallery {
+        padding-bottom: 70px;
+    }
+
+    .gallery__img{
+        padding-left: 0;
+    }
+
+    .gallery__img img{
+        display: flex;
+        justify-content: center;
+        width: 520px;
+        padding-top: 20px;
+    }
+
+    /*____________ CONTACT _______________*/
+    .contact__info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+    /*____________ FORMS _______________*/
+
+    .info h1 {
+
+        font-size: 18px;
+        
+    }
+    input{
+        width: 180px;
+        height: 22px;
+        padding: 10px 20px;
+        font-size: 17px;
+
+    }
+
+    .btn__forms a{
+        width: 80px;
+        height: 30px;
+    
+        font-size: 16px;
+    
+
+
+        padding: 13px 15px;
+    
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+
+/*____________ NAV _______________*/
+    .header__line  {
+        flex-direction: column;
+      }
+
+      .nav {
+        padding-top: 20px;
+        padding-left: 0px;
+      }
+
+      .phone {
+        padding-top: 20px;
+
+      }
+
+      .logo img {
+        padding-right: 0px;
+      }
+
+/*____________ HEADER _______________*/
+    .header__body {
+        margin-top: 170px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .slogan {
+        font-size: 25px;
+    }
+
+    .time {
+        font-size: 35px;
+    }
+
+    .btn {
+        margin-top: 100px;
+    }
+
+/*____________ ABOUT _______________*/
+    .sirvise__icon img {
+        min-width: 55px;
+        height: 55px; 
+    }
+/*____________ GALLERY _______________*/
+    .gallery {
+        padding-bottom: 70px;
+    }
+
+    .gallery__img{
+        padding-left: 0;
+    }
+
+    .gallery__img img{
+ 
+        justify-content: center;
+        align-items: center;
+        width: 420px;
+        padding-top: 20px;
+    }
+
+    /*____________ FORMS _______________*/
+
+.forms {
+    height: 200px;
+}
+
+    .info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 10px;  
+    }
+
+    input {
+        margin-top: 12px;
+    }
+
+    .btn__forms {
+    margin-top: 31px;
+
+    }
+}
+
+@media screen and (max-width: 530px){
+    
+/*____________ HEADER _______________*/
+
+    .header {
+        min-height: 130vh;
+    }
+
+    .header__line {
+        padding-top: 17px;
+    }
+
+    .nav {
+        padding: 0;
+    }
+    .nav a {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+        margin-right: 0px;
+    }
+
+    .phone {
+        margin-right: 10px;
+        
+    }
+
+    .header__body {
+        margin-top: 70px;
+    }
+
+    .slogan {
+        font-size: 20px;
+    }
+
+    .time {
+        font-size: 28px;
+    }
+
+    .btn {
+        margin-top: 95px;
+        
+    }
+
+    .btn a {
+        font-size: 16px;
+    }
+
+/*____________ ABOUT _______________*/
+    .about {
+        padding-bottom: 50px;
+        min-height: 130vh;
+    }
+
+    .servise {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .sirvise__icon img{
+        min-width: 20px;
+        height: 50px;
+        padding: 13px;
+
+    }
+
+    .sirvise__icon__text {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 17px;
+        font-size: 20px;
+
+    }
+
+/*____________ GALLERY _______________*/
+    .gallery__img img {
+        width: 300px;
+        padding-right: 0;
+    }
+
+/*____________ CONTACT _______________*/
+    .contact {
+        padding-bottom: 60px;
+        min-height: 130vh;
+
+    }
+
+    .social__icon img {
+        margin-right: 10px;
+    }
+
+    .social__icon img{
+        padding: 8px 28px;
+        
+    }
+    
+/*____________ FOOTER _______________*/
+    .footer__info {
+        flex-direction: column;
+        
+    }
+
+    .nav__footer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        margin-right: 0px;
+        font-size: 13px;
+    }
+
+    .nav__footer a {
+        margin-right: 16px;
+    }
+
+    .footer {
+        padding-top: 45px;
+    }
+}

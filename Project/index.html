@@ -1,51 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
     <title>Добрая Пекарня</title>
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/logo.png">
+
 </head>
 <body>
 
-    <header>
+<!--________________ HEADER AND MAIN SCREEN ________________-->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="header__line"> 
 
-        <div class="logo">
-            <img src="img/logo.png" alt="logo">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="img/logo.png" alt="Логотип">
+                    </a>
+                </div>
+
+                <div class="nav">
+                    <a href="#home">Главная</a>
+                    <a href="#about">О нас</a>
+                    <a href="#gallery">Галерея</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+
+                <div class="phone">
+                    <a href="+78938392364">
+                        +7 893 839-23-64
+                    </a>
+                 </div>
+            </div>
+
+            <div class="header__body">
+                <div class="slogan">
+                    Всегда свежая и 
+                    горячая <br> продукция 
+                    по вкусным ценам <br>
+                </div> 
+
+                <div class="time">
+                    Мы ждем Вас!
+                </div>
+
+                <div class="btn">
+                    <a href="#forms">Сделать заказ</a>  
+                </div>
+            </div>  
         </div>
-        
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="about.html">О нас</a></li>
-                <li><a href="delivery.html">Доставка</a></li>
-                <li><a href="contact.html">Контакты</a></li>
-            </ul>
-        </nav>
-        
     </header>
-        
-    
-    <div class="body_info">
-        <div class="text">
-            <h3>Всегда свежая и горячая продукция по вкусным ценам</h3>
-            <h3>Мы ждем Вас!</h3>
+
+<!--________________ ABOUT _________________________________-->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="section__text">
+                <h1>О нас</h1> 
+                <div class="about__text">
+                    <p>
+                        Создавая "Добрая Перканя", мы хотели открыть место,
+                        где за хорошей едой можно собрать хороших людей.
+                    </p><br>
+                    <p>
+                        <span>Мы верим</span> в добросовестность и неравнодушие, для нас 
+                        не существует мелочей. 
+                        Мы с любопытством собираем рецепты по всему миру, 
+                        привнося в меню частички 
+                        всевозможных культур. 
+                        Мы требовательно отбираем ингредиенты, оставляя 
+                        только самое лучшее.
+                    </p><br>
+                    <p>
+                        <span>Наша цель</span> — ежедневно дарить людям радость через привычные вещи. 
+                        Только натуральные продукты — вот главный секрет качества. 
+                        Нам нравится развивать культуру еды и быть в своем роде 
+                        первопроходцами.
+                    </p>
+                    
+                    <div class="servise">
+
+                        <div class="sirvise__icon">
+                            <img src="img/povar.png" alt="Персонал">
+                            <div class="sirvise__icon__text">
+                                Высокая квалификация специалистов
+                            </div>
+                        </div>
+
+                        <div class="sirvise__icon">
+                            <img src="img/money.png" alt="Способ оплаты">
+                            <div class="sirvise__icon__text">
+                                Оплата удобным для вас способом
+                            </div>
+                        </div>
+
+                        <div class="sirvise__icon">
+                            <img src="img/garant.png" alt="Гарантия">
+                            <div class="sirvise__icon__text">
+                                Всегда свежая <br> и горячая продукция
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <img src="img/index_heade.jpg" alt="Булочки" >
     </div>
 
+<!--________________ GALLERY _______________________________-->
+    <div class="gallery" id="gallery">
+        <div class="container">
+           <div class="section__text">
+                <h1>Галерея</h1> 
+            </div>
+            <div class="gallery__img">
+                <img src="img/gallery1.jpg" alt="Фото1">
+                <img src="img/gallery2.jpg" alt="Фото2">
+                <img src="img/gallery3.jpg" alt="Фото3">
+                <img src="img/gallery4.jpg" alt="Фото4">
+                <img src="img/gallery5.jpg" alt="Фото5">
+                <img src="img/gallery6.jpeg" alt="Фото6">
+            </div>
+       </div>
+    </div>
 
+<!--________________ CONTACT _______________________________-->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="section__text">
+                <h1>Контакты</h1> 
+            </div>
 
+            <div class="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8dc9ea7f97e0a857fed31084fbaf881708af72f6af4b627b0105f1fe63a4ee7d&amp;width=100%&amp;height=422&amp;lang=ru_RU&amp;scroll=true">
+                </script>
+            </div>
+            <div class="contact__info">
+                <div class="phone__contact">
+                    <a href="+78938392364">
+                        +7 893 839-23-64
+                    </a>
+                    <div class="address">
+                        <p>г. Симферополь, Учебный переулок, 8</p> 
+                    </div>
+                </div>
+                <div class="social">
+                    <p>
+                        Остались вопросы? А мы всегда на связи:
+                    </p>
+                    <div class="social__icon">
+                        <a href="https://vk.com/" target="_blank">
+                            <img src="img/vk.png" alt="ВКонтакте">
+                        </a>
+                        <a href="https://telegram.org/" target="_blank">
+                            <img src="img/telegram.png" alt="Телеграм">
+                        </a>
+                        <a href="https://www.viber.com/ru/" target="_blank">
+                            <img src="img/viber.png" alt="Вайбер">
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
 
-    <footer>
-        <p><span>Добрая Пекарня</span></p>
-        <P>© Куропаткин А.М. 2022</P>
-        <p><a href="index.html">Наверх</a></p>
+<!--________________ FORMS ________________________________-->
+    <div class="forms" id="forms">
+        <div class="container">
+            <div class="info">
+                <h1>Оставьте заявку на заказ</h1>
+                <input type="text" placeholder="Номер телефона" type="tel" name="phone"  required>
+                <div class="btn__forms">
+                    <a href="#">Оставить заявку</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--________________ FOOTER ________________________________-->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__info">
+
+                <img src="img/logo.png" alt="">
+
+                <div class="nav__footer">
+                    <a href="#home">Главная</a>
+                    <a href="#about">О нас</a>
+                    <a href="#gallery">Галерея</a>
+                </div>
+            </div>
+            <div class="footer__text">
+                <a href="https://github.com/aanddi">
+                    <img src="img/github.png" alt="Логотип">
+                </a> 
+                © 2022 "Добрая Пекарня"
+            </div>
+        </div>
     </footer>
-
-        
-
-
 </body>
 </html>
