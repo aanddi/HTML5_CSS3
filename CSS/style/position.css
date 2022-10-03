@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+/*_____________fixed______________*/
+.nav {
+    width: 20%;
+    height: 100px;
+    background-color: #9457EB;
+    position: fixed;
+}
+
+.nav h1 {
+    padding-top: 30px;
+}
+
+/*_____________static_____________*/
+.box__1{
+    width: 300px;
+    height: 300px;
+    background-color: #CD443A;
+    margin: 0 auto; 
+}
+.mini__box__1 {
+    width: 50px;
+    height: 50px;
+    background-color: #EA8E13;
+    position: static; /* Дефолтное значение */
+}
+
+/*_____________relative_____________*/
+.box__2{
+    width: 300px;
+    height: 300px;
+    background-color: #CD443A;
+    margin: 0 auto;
+
+}
+.mini__box__2 {
+    width: 50px;
+    height: 50px;
+    background-color: #EA8E13;
+
+    position: relative; /* Движение по оси x y */
+    top: 10px;
+    right: 10px;
+}
+
+/*_____________absolute_____________*/
+.box__3{
+    width: 300px;
+    height: 300px;
+    background-color: #CD443A;
+    margin: 0 auto;
+
+    position: relative; /*Нужно для того, чтобы mini__box был позиционирован по отношению к родителю box*/
+}
+.mini__box__3 {
+    width: 50px;
+    height: 50px;
+    background-color: #EA8E13;
+
+    position: absolute; /*Обсолютное позиционирование по отношению к родителю*/
+    top: 50%;
+    right: 50%;
+}
+
+
