@@ -187,13 +187,12 @@ span {
     
 }
 
-.sirvise__icon__text {
+.sirvise__icon p{
     margin-top: 30px;
     color: #fff;
     font-family: "Open Sans";
     font-size: 20px;
 }
-
 
 /*____________ GALLERY_______________*/
 
@@ -323,7 +322,7 @@ input{
     padding: 12px 22px;
     border-radius: 40px;
     margin-left: 231px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     font-size: 20px;
 }
 
@@ -346,6 +345,7 @@ input{
     background-color: #8B331B;
     color: #fff;
     border-color:#8B331B;
+    box-shadow: 3px 2px 2px 2px black;
 }
 
 
