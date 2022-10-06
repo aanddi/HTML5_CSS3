@@ -1,0 +1,429 @@
+/*____________ MEDIA _______________*/
+
+@media screen and (max-width: 1700px){
+    /*____________ GALLERY_______________*/
+        .gallery {
+            padding-bottom: 70px;
+        }
+    
+        .gallery__img {
+            padding-left: 150px;
+            
+     
+        }
+    
+        .gallery__img img{
+            width: 400px;
+        }
+    /*____________ FORMS _______________*/
+        input{
+            width: 250px;
+            height: 22px;
+            padding: 12px 22px;
+            margin-left: 200px;
+            font-size: 20px;
+        }
+    
+        .btn__forms a{
+            width: 90px;
+            height: 36px;
+            font-size: 18px;
+            margin-left: 21px;
+            padding: 15px 18px;
+    
+        }
+    
+    }
+    
+    @media screen and (max-width: 1516px){
+    
+    
+    /*____________ MAIN _______________*/
+        .container {
+            margin: 0 80px;
+        }
+    /*____________ HEADER _______________*/
+        .phone a  {
+            font-size: 25px;
+            padding-left: 30px;
+        }
+    
+        .nav a {
+            font-size: 15px;
+            margin-right: 20px;
+        }
+    
+        .logo img{
+            padding-right: 70px;
+        }
+    /*____________ GALLERY_______________*/
+    
+        .gallery {
+            padding-bottom: 70px;
+        }
+        .galler__img {
+            display: flex;
+            justify-content: center;
+            width: 600px;
+            padding-top: 20px;
+    
+        }
+        
+    /*____________ FORMS_______________*/
+    
+        .info {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 52px;
+        }
+        input{
+            margin-left: 0px;
+    
+        }
+        
+        .btn__forms a{
+    
+            margin-left: 0px;
+      
+        }
+        
+    }
+    
+    @media screen and (max-width: 1200px){
+    
+    /*____________ GALLERY_______________*/
+        
+        .gallery {
+            padding-bottom: 70px;
+        }
+    
+        .gallery__img{
+            padding-left: 0;
+        }
+    
+        .gallery__img img{
+            display: flex;
+            justify-content: center;
+            width: 520px;
+            padding-top: 20px;
+        }
+    /*____________ CONTACT _______________*/
+    
+        .contact__info a{
+            font-size: 30px;
+    
+        }
+    
+        .address p {
+            font-size: 23px;
+    
+        }
+    
+        .social p{
+            font-size: 15px;
+     
+        }
+    }
+    
+    @media screen and (max-width: 1066px){
+    
+    /*____________ MAIN _______________*/
+        .container {
+            margin: 0 30px;
+        }
+    
+    /*____________ NAV _______________*/
+        .logo img {
+            width: 90px;
+            padding-right: 40px;
+        }
+    
+        .phone a {
+            padding-left: 10px;
+            font-size: 20px;
+        }
+    
+        .nav a {
+            margin-right: 10px;
+    
+        }
+    /*____________ HEADER _______________*/
+        .slogan {
+            font-size: 30px;
+        }
+    
+        .time {
+            font-size: 50px;
+        }
+    
+        .header__body {
+            text-align: center;
+            margin-left: 0;
+        }
+    
+        .btn {
+            margin-top: 110px;
+        }
+    
+    /*____________ GALLERY_______________*/
+    
+        .gallery {
+            padding-bottom: 70px;
+        }
+    
+        .gallery__img{
+            padding-left: 0;
+        }
+    
+        .gallery__img img{
+            display: flex;
+            justify-content: center;
+            width: 520px;
+            padding-top: 20px;
+        }
+    
+        /*____________ CONTACT _______________*/
+        .contact__info {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 20px;
+            text-align: center;
+        }
+        /*____________ FORMS _______________*/
+    
+        .info h1 {
+    
+            font-size: 18px;
+            
+        }
+        input{
+            width: 180px;
+            height: 22px;
+            padding: 10px 20px;
+            font-size: 17px;
+    
+        }
+    
+        .btn__forms a{
+            width: 80px;
+            height: 30px;
+        
+            font-size: 16px;
+        
+    
+    
+            padding: 13px 15px;
+        
+        }
+    
+    }
+    
+    @media screen and (max-width: 780px) {
+    
+    /*____________ NAV _______________*/
+        .header__line  {
+            flex-direction: column;
+          }
+    
+          .nav {
+            padding-top: 20px;
+            padding-left: 0px;
+          }
+    
+          .phone {
+            padding-top: 20px;
+    
+          }
+    
+          .logo img {
+            padding-right: 0px;
+          }
+    
+    /*____________ HEADER _______________*/
+        .header__body {
+            margin-top: 170px;
+            margin-left: 0;
+            text-align: center;
+        }
+    
+        .slogan {
+            font-size: 25px;
+        }
+    
+        .time {
+            font-size: 35px;
+        }
+    
+        .btn {
+            margin-top: 100px;
+        }
+    
+    /*____________ ABOUT _______________*/
+        .sirvise__icon img {
+            min-width: 55px;
+            height: 55px; 
+        }
+    /*____________ GALLERY _______________*/
+        .gallery {
+            padding-bottom: 70px;
+        }
+    
+        .gallery__img{
+            padding-left: 0;
+        }
+    
+        .gallery__img img{
+     
+            justify-content: center;
+            align-items: center;
+            width: 420px;
+            padding-top: 20px;
+        }
+    
+        /*____________ FORMS _______________*/
+    
+    .forms {
+        height: 200px;
+    }
+    
+        .info {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 10px;  
+        }
+    
+        input {
+            margin-top: 12px;
+        }
+    
+        .btn__forms {
+        margin-top: 31px;
+    
+        }
+    }
+    
+    @media screen and (max-width: 530px){
+        
+    /*____________ HEADER _______________*/
+    
+        .header {
+            min-height: 130vh;
+        }
+    
+        .header__line {
+            padding-top: 17px;
+        }
+    
+        .nav {
+            padding: 0;
+        }
+        .nav a {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 20px;
+            margin-right: 0px;
+        }
+    
+        .phone {
+            margin-right: 10px;
+            
+        }
+    
+        .header__body {
+            margin-top: 70px;
+        }
+    
+        .slogan {
+            font-size: 20px;
+        }
+    
+        .time {
+            font-size: 28px;
+        }
+    
+        .btn {
+            margin-top: 95px;
+            
+        }
+    
+        .btn a {
+            font-size: 16px;
+        }
+    
+    /*____________ ABOUT _______________*/
+        .about {
+            padding-bottom: 50px;
+            min-height: 130vh;
+        }
+    
+        .servise {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+            margin-top: 50px;
+            flex-direction: column;
+        }
+    
+        .sirvise__icon img{
+            min-width: 20px;
+            height: 50px;
+            padding: 13px;
+    
+        }
+    
+        .sirvise__icon__text {
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 17px;
+            font-size: 20px;
+    
+        }
+    
+    /*____________ GALLERY _______________*/
+        .gallery__img img {
+            width: 300px;
+            padding-right: 0;
+        }
+    
+    /*____________ CONTACT _______________*/
+        .contact {
+            padding-bottom: 60px;
+            min-height: 130vh;
+    
+        }
+    
+        .social__icon img {
+            margin-right: 10px;
+        }
+    
+        .social__icon img{
+            padding: 8px 28px;
+            
+        }
+        
+    /*____________ FOOTER _______________*/
+        .footer__info {
+            flex-direction: column;
+            
+        }
+    
+        .nav__footer {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            margin-right: 0px;
+            font-size: 13px;
+        }
+    
+        .nav__footer a {
+            margin-right: 16px;
+        }
+    
+        .footer {
+            padding-top: 45px;
+        }
+    }
