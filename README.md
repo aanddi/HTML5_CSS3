@@ -1,6 +1,6 @@
 <p align="center">
 
-  <img src="HTML/imges/code.png" alt=""  height= "150px">
+  <img src="HTML/images/code.png" alt="code"  height= "150px">
   <h1 align="center">Курс по изучинию Web Development</h1>
 
 </p>
@@ -23,7 +23,7 @@
 
 <p align="center">
 
-  <img src="Project/img/logo.png" alt=""  height= "150px">
+  <img src="Project/img/logo.png" alt="Добрая Пекарня"  height= "150px">
   <h1 align="center">"Добрая Пекарня"</h1>
 
 </p>
