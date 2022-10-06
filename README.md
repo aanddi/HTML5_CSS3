@@ -1,7 +1,7 @@
 <p align="center">
 
-  <img src="HTML/images/code.png" alt="code"  height= "150px">
-  <h1 align="center">Курс по изучинию Web Development</h1>
+<img src="HTML/images/code.png" alt="code"  height= "150px">
+<h1 align="center">Курс по изучинию Web Development</h1>
 
 </p>
 
