@@ -1,4 +1,10 @@
-<h1>Курс по изучинию Web Development</h1>
+<p align="center">
+
+  <img src="HTML/imges/code.png" alt=""  height= "150px">
+  <h1 align="center">Курс по изучинию Web Development</h1>
+
+</p>
+
 
 ![HTML](https://img.shields.io/badge/HTML5-F07427?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-52A7FC?style=for-the-badge&logo=css3&logoColor=white)
@@ -16,7 +22,8 @@
 <hr>
 
 <p align="center">
-  <img src="Project/img/logo.png" alt=""  height= "150px" align="center">
+
+  <img src="Project/img/logo.png" alt=""  height= "150px">
   <h1 align="center">"Добрая Пекарня"</h1>
 
 </p>
