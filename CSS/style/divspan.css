@@ -1,6 +1,7 @@
 /* DIV SPAN */
 body {
   font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
 }
 
 div{
