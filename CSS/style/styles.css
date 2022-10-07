@@ -1,4 +1,7 @@
 /* ELEMENT SELECTORS*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 h1 {
     color: red;
@@ -9,7 +12,6 @@ h2 {
 p {
     color: grey;
 }
-
 
 /* ID */
 
