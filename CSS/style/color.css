@@ -1,5 +1,9 @@
 body {
     background: #32A66E; /*background: rgba(10, 200, 200, 0.56);*/
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #first {
