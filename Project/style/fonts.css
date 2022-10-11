@@ -1,5 +1,4 @@
-/*
-____________ FONTS _______________
+/*_____________________________________ FONTS ___________________________________
 Macherie, Montserrat, Open Sans
 
 */
@@ -7,8 +6,11 @@ Macherie, Montserrat, Open Sans
 @font-face {
     font-family: "Macherie";
     src: url(../fonts/macherie.ttf);
-    font-style: normal;}
+    font-style: normal;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+/*________________________________________________________________________________*/

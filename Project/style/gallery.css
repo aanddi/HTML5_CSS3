@@ -1,7 +1,6 @@
 .gallery{
     display: flex;
     justify-content: space-around;
-    padding-top: 60px;
     min-height: 100vh;
     background-image: url(../img/bg_gallery.jpg);
     background-attachment: fixed;

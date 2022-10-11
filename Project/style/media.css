@@ -33,29 +33,10 @@
     
         }
     
-    }
+}
     
-    @media screen and (max-width: 1516px){
-    
-    
-    /*____________ MAIN _______________*/
-        .container {
-            margin: 0 80px;
-        }
-    /*____________ HEADER _______________*/
-        .phone a  {
-            font-size: 25px;
-            padding-left: 30px;
-        }
-    
-        .nav a {
-            font-size: 15px;
-            margin-right: 20px;
-        }
-    
-        .logo img{
-            padding-right: 70px;
-        }
+@media screen and (max-width: 1516px){
+
     /*____________ GALLERY_______________*/
     
         .gallery {
@@ -88,9 +69,9 @@
       
         }
         
-    }
+}
     
-    @media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px){
     
     /*____________ GALLERY_______________*/
         
@@ -126,7 +107,7 @@
         }
     }
     
-    @media screen and (max-width: 1066px){
+@media screen and (max-width: 1066px){
     
     /*____________ MAIN _______________*/
         .container {
@@ -218,47 +199,10 @@
         
         }
     
-    }
+}
     
-    @media screen and (max-width: 780px) {
+@media screen and (max-width: 780px) {
     
-    /*____________ NAV _______________*/
-        .header__line  {
-            flex-direction: column;
-          }
-    
-          .nav {
-            padding-top: 20px;
-            padding-left: 0px;
-          }
-    
-          .phone {
-            padding-top: 20px;
-    
-          }
-    
-          .logo img {
-            padding-right: 0px;
-          }
-    
-    /*____________ HEADER _______________*/
-        .header__body {
-            margin-top: 170px;
-            margin-left: 0;
-            text-align: center;
-        }
-    
-        .slogan {
-            font-size: 25px;
-        }
-    
-        .time {
-            font-size: 35px;
-        }
-    
-        .btn {
-            margin-top: 100px;
-        }
     
     /*____________ ABOUT _______________*/
         .sirvise__icon img {
@@ -303,56 +247,11 @@
         margin-top: 31px;
     
         }
-    }
+}
     
-    @media screen and (max-width: 530px){
+@media screen and (max-width: 530px){
         
-    /*____________ HEADER _______________*/
-    
-        .header {
-            min-height: 130vh;
-        }
-    
-        .header__line {
-            padding-top: 17px;
-        }
-    
-        .nav {
-            padding: 0;
-        }
-        .nav a {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            padding-top: 20px;
-            margin-right: 0px;
-        }
-    
-        .phone {
-            margin-right: 10px;
-            
-        }
-    
-        .header__body {
-            margin-top: 70px;
-        }
-    
-        .slogan {
-            font-size: 20px;
-        }
-    
-        .time {
-            font-size: 28px;
-        }
-    
-        .btn {
-            margin-top: 95px;
-            
-        }
-    
-        .btn a {
-            font-size: 16px;
-        }
+   
     
     /*____________ ABOUT _______________*/
         .about {
@@ -387,6 +286,11 @@
         .gallery__img img {
             width: 300px;
             padding-right: 0;
+            
+        }
+
+        .gallery__img {
+            padding-top: 0px;
         }
     
     /*____________ CONTACT _______________*/
@@ -428,12 +332,19 @@
         }
     }
 /*--------------------------меню-----------------------*/
-    @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
         .header__body {
-            margin-top: 200px;
+            margin-top: 80px;
             font-size: 25px;
             line-height: 45px;
+        }
+
+        .title{
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 40px;
+            font-size: 35px;
         }
         
         .header__button {
@@ -443,5 +354,6 @@
         .header__line {
             flex-direction: row;
         }
+
     }
     
