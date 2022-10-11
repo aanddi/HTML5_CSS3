@@ -1,0 +1,52 @@
+/*____________ FORMS _______________*/
+
+.forms {
+    min-height: 22vh;
+    background-color: #E6E3DE;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    padding-top: 52px;  
+}
+
+.info h1 {
+    color: #000;
+    font-size: 23px;
+    
+}
+
+input{
+    width: 311px;
+    height: 22px;
+    padding: 12px 22px;
+    border-radius: 40px;
+    margin-left: 231px;
+    border: 1px solid #fff;
+    font-size: 20px;
+}
+
+.btn__forms a{
+    width: 110px;
+    height: 36px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 40px;
+    background-color: #F5A54A;
+    margin-left: 21px;
+    padding: 15px 18px;
+    color: #fff;
+    font-family: "Macherie";
+    text-transform: uppercase;
+    transition: all 0.4s ease-out;   
+}
+
+.btn__forms a:hover{
+    background-color: #8B331B;
+    color: #fff;
+    border-color:#8B331B;
+    box-shadow: 3px 2px 2px 2px black;
+}

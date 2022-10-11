@@ -1,0 +1,60 @@
+/*____________ FOOTER _______________*/
+
+.footer {
+    padding-top: 75px;
+    color: #fff;
+    background-color: #000;
+    min-height: 180px;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__info img {
+    width: 100px;
+    height: auto;
+}
+
+.nav__footer a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-family: "Macherie";
+    
+    transition: all 0.4s ease-out;
+}
+
+.nav__footer a:hover{
+    color: #F7A92C;
+}
+
+.footer__text {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__text img {
+    color: #E3ECF5;
+    width: 50px;
+    height: auto;
+    background: #fff;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+
+    transition: all 0.4s ease-out;
+}
+
+.footer__text img:hover {
+    background-color: #F7A92C;
+    border-radius: 100%;
+    border: 1px solid #F7A92C;
+   
+} 

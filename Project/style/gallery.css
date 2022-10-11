@@ -1,0 +1,129 @@
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    min-height: 100vh;
+    background-image: url(../img/bg_gallery.jpg);
+    background-attachment: fixed;
+}
+
+  /*gallery img*/
+.gallery__img img{
+    width: 400px;
+    height: auto;
+    padding-right: 30px;
+    padding-top: 10px;
+
+    transition: 0.2s;
+  }
+  
+
+.gallery__img img:hover {
+    transform: scale(1.1);
+}
+
+/*_______________________ MEDIA  ____________________________*/
+
+
+@media screen and (max-width: 1700px){
+    /*____________ GALLERY_______________*/
+        .gallery {
+            padding-bottom: 70px;
+        }
+    
+        .gallery__img {
+            padding-left: 150px;
+            
+     
+        }
+    
+        .gallery__img img{
+            width: 400px;
+        }
+    }
+    
+@media screen and (max-width: 1516px){
+    
+        .gallery {
+            padding-bottom: 70px;
+        }
+
+        .gallery__img {
+            padding-top: 150px;
+        }
+        .gallery__img img{
+            width: 350px;
+          }
+        
+    }
+    
+    @media screen and (max-width: 1200px){
+    
+        
+        .gallery {
+            padding-bottom: 70px;
+        }
+    
+        .gallery__img{
+            padding-left: 0;
+        }
+    
+        .gallery__img img{
+            display: flex;
+            justify-content: center;
+            width: 520px;
+            padding-top: 20px;
+        }
+
+    }
+    
+@media screen and (max-width: 1066px){
+    
+        .gallery {
+            padding-bottom: 70px;
+        }
+    
+        .gallery__img{
+            padding-left: 0;
+        }
+    
+        .gallery__img img{
+            display: flex;
+            justify-content: center;
+            width: 520px;
+            padding-top: 20px;
+        }
+
+    
+    }
+    
+@media screen and (max-width: 780px) {
+  
+        .gallery {
+            padding-bottom: 70px;
+        }
+    
+        .gallery__img{
+            padding-left: 0;
+        }
+    
+        .gallery__img img{
+     
+            justify-content: center;
+            align-items: center;
+            width: 420px;
+            padding-top: 20px;
+        }
+    }
+    
+@media screen and (max-width: 530px){
+
+        .gallery__img img {
+            width: 300px;
+            padding-right: 0;
+        }
+        .gallery__img {
+            padding-top: 50px;
+        }
+
+    }

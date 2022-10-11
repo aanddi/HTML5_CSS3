@@ -3,14 +3,18 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.container {
-    margin: 0 215px;
+[class*="__container"] { /*контейнер для контента*/
+    max-width: 1335px;
+    margin: 0 auto;
+    padding: 0 20px; /*отступ безопасности*/
 }
 
-.section__text h1{
+.title{
     text-align: center;
+    padding-top: 100px;
     padding-bottom: 40px;
     text-transform: uppercase;
     font-size: 40px;
@@ -18,7 +22,30 @@ body {
     color: #F6A73E;
 }
 
-span {
+.about__text-span {
     color: #F6A73E;
     font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button {
+    display: inline-block;
+    color: #fff;
+    line-height: 12px;
+    letter-spacing: 1px;
+    padding: 25px 20px;
+    background-color: #F7A92C;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.4s ease-out;
+}
+
+.button:hover {
+    background-color: #8B331B;
+    color: #fff;
 }

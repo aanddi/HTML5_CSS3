@@ -1,4 +1,6 @@
-/*____________ HEADER _______________*/
+
+
+/*_______________________ HEADER ____________________________*/
 
 .header { 
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0,0,0.6)),
@@ -7,94 +9,219 @@
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh; 
-
 }
 
-.logo img{
-    width: 100px;
-    height: auto;
-    padding-right: 130px;
-}
+/*_______________________ MENU ____________________________*/
 
 .header__line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: "Macherie";
     font-size: 17px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-top: 38px;
-}
-
-.nav a {
-    text-decoration: none;
-    color: #fff;
+    padding-top: 50px;
     text-transform: uppercase;
-    margin-right: 30px;
+}
+
+
+.header__logo {
+    max-width: 100px;
+    z-index: 5;
+}
+
+.menu__link {
+    padding-right: 25px;
     transition: all 0.4s ease-out;
 }
 
-.nav a:hover{
+.menu__link:nth-child(4){
+    padding-right: 0;
+}
+
+.menu__link:hover {
     color: #F7A92C;
 }
 
-.phone a {
+
+.header__phone__burger {
+    display: none;
+}
+
+.phone__link {
     color: #F7A92C;
-    text-decoration: none;
     font-size: 30px;
-    padding-left: 60px;
     transition: all 0.4s ease-out;
+
+}
+
+.header__phone {
+    z-index: 5;
+}
+
+.phone__link:hover {
+    color: #F07427;
+}
+/*_______________________  MENU BURGER ____________________________*/
+.icon__menu {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .menu__body{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        padding: 120px 0px;
+        transition: all 0.4s ease-out;
+        overflow: auto;
+    }
+
+    .header:target .menu__body{
+        left: 0;
+    }
+
+    .header__phone {
+        display: none;
+    }
+
+    .menu__link {
+        padding-right: 0px;
+        padding-top: 40px;
+        font-size: 30px;
+    }
+
+    .header__phone__burger > .phone__link{
+        padding-top: 40px;
+     }
+
+     .menu__link:nth-child(1){
+        padding-top: 70px;
+    }
+
+    .menu__list , .header__phone__burger{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+/*---------------------------------*/
+    .icon__menu,
+    .close-icon__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        width: 30px;
+        height: 20px;
+    }
+
+    .icon__menu span {
+        background-color: #fff;
+        height: 2px;
+    }
+
+    .close-icon__menu {
+        display: none;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .icon__menu::before, 
+    .icon__menu::after {
+        content: "";
+        background-color: #fff;
+        height: 2px;
+    }
+
+    .close-icon__menu::before,
+    .close-icon__menu::after {
+        content: " ";
+        background-color: #fff;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+    }
+
+    .close-icon__menu::before {
+        transform: rotate(45deg);
+    }
+
+    .close-icon__menu::after {
+        transform: rotate(-45deg);
+    }
+
+    .header:target .icon__menu {
+        display: none;
+    }
+    
+    .header:target .close-icon__menu {
+        display: flex;
+    }
     
 }
 
-.phone a:hover {
-    color: #8B331B;
-}
-
-/*main screen*/
+/*_______________________ MAIN SCREEN ____________________________*/
 
 .header__body {
     margin-top: 200px;
-    margin-left: 110px;
     color: #fff;
-    font-family: "Macherie";
-}
-
-.slogan {
     font-size: 30px;
-    text-transform: uppercase;
-    font-weight: 400;
-    line-height: 1.5;
-}
-
-.time {
-    font-size: 50px;
-    text-transform: uppercase;
-    margin-top: 40px;
-    
-}
-
-.btn {
-    margin-top: 40px;
-}
-
-.btn a{
+    line-height: 60px;
     font-family: "Macherie";
-    font-size: 20px;
-    font-weight: 400;
-    border: 1px solid #F7A92C;
-    background-color: #F7A92C;
-    color: #fff;
-    border-radius: 30px;
-    width: 238px;
-    text-align: center;
-    padding: 20px;
     text-transform: uppercase;
-    text-decoration: none;
-    transition: all 0.4s ease-out;
 }
 
- .btn :hover {
-    background-color: #8B331B;
-    color: #fff;
-    border: 1px solid #8B331B;
+.slogan__time {
+    font-size: 40px;
+    padding-top: 10px;
 }
+
+.header__button {
+    padding-top: 50px;
+}
+
+
+/*_______________________ MEDIA  ____________________________*/
+
+@media screen and (max-width: 1400px){
+
+    .header__container {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+
+    /*_______________________ MENU ____________________________*/
+
+    .header__line {
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        padding-top: 35px;
+    }
+
+    .header__menu, .header__phone {
+        padding-top: 25px;
+    }
+
+    .header__container {
+        width: auto;
+    }
+
+    /*_______________________ MAIN SCREEN ____________________________*/
+
+    .header__body {
+
+        text-align: center;
+    }
+}
+
+
+

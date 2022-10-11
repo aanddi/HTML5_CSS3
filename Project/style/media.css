@@ -427,3 +427,21 @@
             padding-top: 45px;
         }
     }
+/*--------------------------меню-----------------------*/
+    @media screen and (max-width: 600px) {
+
+        .header__body {
+            margin-top: 200px;
+            font-size: 25px;
+            line-height: 45px;
+        }
+        
+        .header__button {
+            padding-top: 50px;
+        }
+    
+        .header__line {
+            flex-direction: row;
+        }
+    }
+    

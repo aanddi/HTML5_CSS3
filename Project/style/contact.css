@@ -1,0 +1,88 @@
+/*____________ CONTACT _______________*/
+
+.contact {
+    min-height: 100vh;
+    background-color: #fff;
+    padding-top: 60px;
+}
+
+
+.contact__info{
+    margin-top: 43px;
+
+}
+
+.phone__contact a {
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    font-family: "Macherie";
+    text-decoration: none;
+    color: #F6A73E;
+
+    transition: all 0.4s ease-out;
+}
+
+.phone__contact a:hover {
+    color: #8B331B;
+}
+
+
+.address p{
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: 700;
+}
+
+.contact__info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+.social p{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: 700;
+
+}
+
+.social__icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social__icon img{
+    padding: 11px 35px;
+    border: 1px solid #E3ECF5;
+    border-radius: 13px;
+    text-decoration: none;
+
+    transition: all 0.4s ease-out;
+    
+}
+
+.social__icon img:hover {
+    background-color: #F0EAD6;
+    border: 1px solid #E3ECF5;
+    border-radius: 13px;
+}
+
+
+
+@media screen and (max-width: 1066px){
+    
+        .contact__info {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+    }
