@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #000;
+    min-height: 200vh;
+    display: block;
+    padding-top: 100px;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.box__items-one::after {
+    content: '  gallexy';
+    color: red;
+}
+.box__items-two::before {
+    content: 'Hello  ';
+    color: red;
+}
+
+.box {
+    width: 100%;
+    height: 200px;
+    background-image: url(https://www.fonstola.ru/images/201305/fonstola.ru_96421.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box-1 {
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    background-image: url(https://xcraft.net/uploads/forum/images/1482610666964.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
