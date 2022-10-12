@@ -1,21 +1,9 @@
 /*____________ MEDIA _______________*/
 
+
 @media screen and (max-width: 1700px){
-    /*____________ GALLERY_______________*/
-        .gallery {
-            padding-bottom: 70px;
-        }
-    
-        .gallery__img {
-            padding-left: 150px;
-            
-     
-        }
-    
-        .gallery__img img{
-            width: 400px;
-        }
-    /*____________ FORMS _______________*/
+
+/*____________ FORMS _______________*/
         input{
             width: 250px;
             height: 22px;
@@ -30,25 +18,10 @@
             font-size: 18px;
             margin-left: 21px;
             padding: 15px 18px;
-    
         }
-    
 }
     
 @media screen and (max-width: 1516px){
-
-    /*____________ GALLERY_______________*/
-    
-        .gallery {
-            padding-bottom: 70px;
-        }
-        .galler__img {
-            display: flex;
-            justify-content: center;
-            width: 600px;
-            padding-top: 20px;
-    
-        }
         
     /*____________ FORMS_______________*/
     
@@ -60,109 +33,33 @@
         }
         input{
             margin-left: 0px;
-    
         }
         
         .btn__forms a{
-    
             margin-left: 0px;
-      
-        }
-        
+        }   
 }
     
 @media screen and (max-width: 1200px){
     
-    /*____________ GALLERY_______________*/
-        
-        .gallery {
-            padding-bottom: 70px;
-        }
-    
-        .gallery__img{
-            padding-left: 0;
-        }
-    
-        .gallery__img img{
-            display: flex;
-            justify-content: center;
-            width: 520px;
-            padding-top: 20px;
-        }
     /*____________ CONTACT _______________*/
     
         .contact__info a{
             font-size: 30px;
-    
         }
     
         .address p {
             font-size: 23px;
-    
         }
     
         .social p{
             font-size: 15px;
-     
+
         }
     }
     
 @media screen and (max-width: 1066px){
     
-    /*____________ MAIN _______________*/
-        .container {
-            margin: 0 30px;
-        }
-    
-    /*____________ NAV _______________*/
-        .logo img {
-            width: 90px;
-            padding-right: 40px;
-        }
-    
-        .phone a {
-            padding-left: 10px;
-            font-size: 20px;
-        }
-    
-        .nav a {
-            margin-right: 10px;
-    
-        }
-    /*____________ HEADER _______________*/
-        .slogan {
-            font-size: 30px;
-        }
-    
-        .time {
-            font-size: 50px;
-        }
-    
-        .header__body {
-            text-align: center;
-            margin-left: 0;
-        }
-    
-        .btn {
-            margin-top: 110px;
-        }
-    
-    /*____________ GALLERY_______________*/
-    
-        .gallery {
-            padding-bottom: 70px;
-        }
-    
-        .gallery__img{
-            padding-left: 0;
-        }
-    
-        .gallery__img img{
-            display: flex;
-            justify-content: center;
-            width: 520px;
-            padding-top: 20px;
-        }
     
         /*____________ CONTACT _______________*/
         .contact__info {
@@ -190,15 +87,10 @@
         .btn__forms a{
             width: 80px;
             height: 30px;
-        
             font-size: 16px;
-        
-    
-    
             padding: 13px 15px;
         
         }
-    
 }
     
 @media screen and (max-width: 780px) {
@@ -209,23 +101,7 @@
             min-width: 55px;
             height: 55px; 
         }
-    /*____________ GALLERY _______________*/
-        .gallery {
-            padding-bottom: 70px;
-        }
-    
-        .gallery__img{
-            padding-left: 0;
-        }
-    
-        .gallery__img img{
-     
-            justify-content: center;
-            align-items: center;
-            width: 420px;
-            padding-top: 20px;
-        }
-    
+
         /*____________ FORMS _______________*/
     
     .forms {
@@ -251,7 +127,6 @@
     
 @media screen and (max-width: 530px){
         
-   
     
     /*____________ ABOUT _______________*/
         .about {
@@ -280,17 +155,6 @@
             margin-bottom: 17px;
             font-size: 20px;
     
-        }
-    
-    /*____________ GALLERY _______________*/
-        .gallery__img img {
-            width: 300px;
-            padding-right: 0;
-            
-        }
-
-        .gallery__img {
-            padding-top: 0px;
         }
     
     /*____________ CONTACT _______________*/
