@@ -33,7 +33,7 @@
 ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 <h3>Обновленный проект с современным дизайном и адаптивной версткой под все устройста.</h3>
-<h4>! Производится доработка адаптива !</h4>
+<h4> ✔️ Проект будет дорабатываться и усовершенствоваться </h4>
 
 
 Вы можете ознакомится с проектом перейдя по ссылке - https://aanddi.github.io/Project-1/
