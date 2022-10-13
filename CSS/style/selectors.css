@@ -1,0 +1,100 @@
+.main-screen {
+    padding-top: 60px;
+    background-color: #9457EB;
+    min-height: 70vh;
+    text-align: center;
+    margin: 70px 30px 0px 30px;
+    border-radius: 40px;
+}
+
+.title {
+    text-align: center;
+    letter-spacing: 3px;
+    color: var(--color__title);
+}
+
+.main-screen__text, p {
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+/*_________(09:28:26) Basic Selectors_________*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*_____(09:31:07) Descendant Child Selectors____*/
+
+p > span {
+    color: #C86100;
+}
+
+/*____(09:35:50) First Line And First Letter___*/
+
+.main-screen__text p::first-letter {
+    color: #EB4C42;
+    font-size: 50px;
+}
+
+.main-screen__text::first-line {
+    color: #29C118;
+}
+
+/*____(09:36:56) :Hover Pseudo-Class Selector___*/
+
+.button-1, .button-2 {
+    display: inline-block;
+    color: #000;
+    line-height: 12px;
+    letter-spacing: 1px;
+    padding: 25px 20px;
+    background-color: #EB4C42;
+    border-radius: 30px;
+    font-size: 20px;
+    transition: all 0.4s ease-out;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.button-1:hover {
+    background-color: #000;
+    color: #EB4C42;
+}
+
+/*____(09:40:03) Link Pseudo-Class Selectors____*/
+
+.button-2:link {
+    background-color: #EB4C42;
+    color: #000;
+}
+
+.button-2:visited {
+    color: blue;
+}
+
+.button-2:hover {
+    background-color: #000;
+    color: #EB4C42;
+}
+
+.button-2:active {
+    background-color: #CC397B;
+    color: #000;
+}
+
+/*___(09:44:36) Root Preudo-Class Selectors___*/
+
+:root {
+    background-color: #000;
+    --color__p: #1E1E1E; /*переменная*/
+    --color__title: #DAD425;
+}
+
+.main-screen__text p {
+    color: var(--color__p);
+}
