@@ -9,6 +9,7 @@
     background-color: #9457EB;
     display: flex;
     justify-content: space-around;
+    flex-direction: ;
     padding-top: 20px;
 }
 
@@ -17,7 +18,7 @@ h1 {
     padding: 40px 0px;
 }
 
-.row1 div, .row2 div {
+.column1 div, .column2 div {
     max-width: 300px;
     height: 300px;
     transition: all 0.4s ease-out;
