@@ -43,7 +43,7 @@
 
     .content-item{
         flex: 0 0 auto;
-        width: 500px;
+        max-width: 100%;
         padding: 10px 0px;
      }
 
@@ -59,6 +59,6 @@
 @media screen and (max-width: 400.98px){
 
     .content-item{
-        width: 200px;
+        max-width: 100%;
      }
 }
