@@ -24,7 +24,7 @@
 <p align="center">
 
   <img src="Project/img/logo.png" alt="Добрая Пекарня"  height= "150px">
-  <h1 align="center">"Добрая Пекарня"</h1>
+  <h1 align="center">Добрая Пекарня</h1>
 
 </p>
 
