@@ -8,17 +8,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-:root {
-    background-color: #000;
-}
-
-.main-screen {
-    background-color: #9457EB;
-    min-height: 70vh;
-    margin: 130px 30px 0px 30px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
