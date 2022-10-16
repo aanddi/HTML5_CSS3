@@ -43,6 +43,7 @@
 } 
 
  /*______________________/|\____________________________*/
+
 .box-2 {
     background-color: #CC42EC;
     transition: all 1s ease-out;
@@ -53,6 +54,7 @@
 }
 
 @keyframes one {
+    
     25% {
         transform: translateX(200px);
         background-color: #EC536F;
