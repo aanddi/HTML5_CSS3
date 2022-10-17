@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    background-color: #000;
+
+/*|_______________/|\__________________|*/
+
+    --background-colorMain: #8DA399;
+    --HightMain: 80vh;
+    --colorTitle: #9457EB;
+    --colorHeadText: #EB202A;
+    --colorBodyText: #09EB11;
+    --colorFooterText: #2038EB;
+    --paragraphSize: 17px;
+    --paragraphWidth: 500px;
+    --firstLineColor: #F418DA;
+    --firstLetterColor: #F07427;
+    --firstLetterSize: 30px;
+    
+/*|____________________________________|*/
+}
+
+.main-screen {
+    background-color: var(--background-colorMain);
+    min-height: var(--HightMain);
+    margin: 100px 30px 0px 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    padding-top: 30px;
+    color: var(--colorTitle)
+}
+
+.text {
+    padding-top: 15px;
+    font-weight: 800;
+    width: var(--paragraphWidth);
+    font-size: var(--paragraphSize);
+}
+
+.text::first-line {
+    color: var(--firstLineColor);
+}
+
+.text::first-letter {
+    color: var(--firstLetterColor);
+    font-size: var(--firstLetterSize);
+}
+
+.head__text {
+    color: var(--colorHeadText);
+}
+
+.body__text {
+    color: var(--colorBodyText);
+}
+
+.footer__text {
+    color: var(--colorFooterText);
+}
